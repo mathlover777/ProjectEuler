@@ -1,0 +1,5 @@
+{
+    //"cmd": ["g++ -std=c++0x ", "$file", "-o", "$file_base_name" ]
+    "cmd":["g++","-std=c++0x","-fno-elide-constructors","$file","-o" ,"$file_base_name","-I/usr/local/include"]
+    //"selector": "source.c++",
+}
